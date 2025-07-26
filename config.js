@@ -7,7 +7,7 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
 
-SESSION_ID: process.env.SESSION_ID === undefined ? '𝙽𝙰𝙳𝙴𝙴𝙽-𝙼𝙳=KE9m2RyD#sL4h8tvH5ZhE4g9bkr13b6sng7FZ-MkkfJtpDAkMTnI' : process.env.SESSION_ID, 
+SESSION_ID: process.env.SESSION_ID === undefined ? 'KE9m2RyD#sL4h8tvH5ZhE4g9bkr13b6sng7FZ-MkkfJtpDAkMTnI' : process.env.SESSION_ID, 
 PORT: process.env.PORT === undefined ? '8000' : process.env.PORT, 
 SESSION_NAME: process.env.SESSION_NAME === undefined ? 'nadeenmd' : process.env.SESSION_NAME
 };
